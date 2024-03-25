@@ -13,7 +13,7 @@ export const Home = ({ navigation }) => {
   const [mail, setEmail] = useState("");
   const [errors, setErrors] = useState({});
   const [password, setPassword] = useState("");
-  const [repassword, setRespassword] = useState("");
+  const [repassword, setRespassword] = useState("") ;
 
   useEffect(() => {
     setInputName("");
